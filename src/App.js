@@ -67,8 +67,7 @@ function App() {
       <div className="inputHolder">
         <input
           type="file"
-          accept="image/"
-          capture="camera"
+          accept="image/*"
           className="uploadInput"
           onChange={uploadImage}
           ref={fileInputRef}
